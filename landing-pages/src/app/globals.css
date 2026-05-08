@@ -1,0 +1,27 @@
+:root {
+  --brand-blue: #2563EB;
+  --brand-dark: #0F172A;
+  --brand-gray: #64748B;
+  --brand-light: #F1F5F9;
+}
+
+body {
+  font-family: 'Instrument Sans', sans-serif;
+  color: var(--brand-dark);
+}
+
+.btn-primary {
+  background-color: var(--brand-blue);
+  border-color: var(--brand-blue);
+  border-radius: 50px;
+  padding: 10px 24px;
+}
+
+.section-badge {
+  background: #EFF6FF;
+  color: var(--brand-blue);
+  border-radius: 50px;
+  font-size: 0.8rem;
+  padding: 4px 14px;
+  display: inline-block;
+}
